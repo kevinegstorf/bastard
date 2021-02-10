@@ -4,7 +4,7 @@ console.log(
   isBasterd({
     name: 'kevin',
     age: 42,
-    favoriteBeer: { name: 'heineken' },
+    favoriteBeer: { name: 'any' },
     codeLanguages: [],
     available_for_work: true,
   }),
