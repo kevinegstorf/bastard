@@ -1,4 +1,4 @@
-# Bastard Validator
+# Bastard Validator 😈
 validation function to check if the given object is a Basterd 
 
 
