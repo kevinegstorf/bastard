@@ -7,5 +7,5 @@ interface Basterd {
     };
     codeLanguages: string[];
 }
-export default function isBasterd(bastard: Basterd): boolean;
+export default function isBasterd(bastard: Basterd): string;
 export {};

@@ -28,5 +28,5 @@ export default function isBasterd(bastard: Basterd) {
   if (typeof available_for_work !== 'boolean') {
     throw new Error('available_for_work is not of type boolean');
   }
-  return true;
+  return `you are a ${true} bastard 😈`;
 }

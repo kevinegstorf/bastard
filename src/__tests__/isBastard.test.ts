@@ -9,5 +9,5 @@ test('isBastard', () => {
       favoriteBeer: { name: 'brewdog' },
       codeLanguages: ['js'],
     }),
-  ).toBe(true);
+  ).toBe('you are a true bastard 😈');
 });
