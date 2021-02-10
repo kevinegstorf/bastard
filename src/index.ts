@@ -7,6 +7,10 @@ interface Basterd {
 }
 
 export default function isBasterd(bastard: Basterd) {
+  if (typeof bastard !== 'object') {
+    throw new Error('You must provide a bastard object');
+  }
+
   const { name, age, favoriteBeer, codeLanguages, available_for_work } = bastard;
 
   if (typeof name !== 'string') {
