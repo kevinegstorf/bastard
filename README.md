@@ -1,9 +1,9 @@
 # Bastard Validator 😈
-validation function to check if the given object is a Bastard 
+Validation function to check if the given object is a Bastard😈!
 
-in the file `example.js` an example is given
+In the file `example.js` an example is given
 
-to run it:
+To run it:
 run `npm run dev`
 
 ```javascript
@@ -29,7 +29,7 @@ run `npm run build`
 
 
 
-<!-- TODO PUBLISH TO NPM -->
+##TODO PUBLISH TO NPM
 ```
 npm install ....
 ```
