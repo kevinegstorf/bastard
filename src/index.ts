@@ -1,4 +1,4 @@
-interface Basterd {
+interface Bastard {
   name: string;
   age: number;
   available_for_work: boolean;
@@ -6,7 +6,7 @@ interface Basterd {
   codeLanguages: string[];
 }
 
-export default function isBasterd(bastard: Basterd) {
+export default function isBasterd(bastard: Bastard) {
   if (typeof bastard !== 'object') {
     throw new Error('You must provide a bastard object');
   }

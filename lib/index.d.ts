@@ -1,4 +1,4 @@
-interface Basterd {
+interface Bastard {
     name: string;
     age: number;
     available_for_work: boolean;
@@ -7,5 +7,5 @@ interface Basterd {
     };
     codeLanguages: string[];
 }
-export default function isBasterd(bastard: Basterd): string;
+export default function isBasterd(bastard: Bastard): string;
 export {};

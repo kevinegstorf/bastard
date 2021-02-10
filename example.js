@@ -1,7 +1,7 @@
-import isBasterd from './lib/index';
+import isBastard from './lib/index';
 
 console.log(
-  isBasterd({
+  isBastard({
     name: 'kevin',
     age: 42,
     favoriteBeer: { name: 'any' },

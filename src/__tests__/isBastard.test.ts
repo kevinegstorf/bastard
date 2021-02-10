@@ -30,7 +30,7 @@ describe('isBasterd', () => {
     expect(emptyfunction).toThrowError(/name is not of type string/i);
   });
 
-  test('isBastard throws error when no args are given', () => {
+  test('isBastard throws error when age is not of type number', () => {
     function emptyfunction() {
       // @ts-ignore
       isBasterd({ name: Faker.name.firstName() });
@@ -38,19 +38,19 @@ describe('isBasterd', () => {
     expect(emptyfunction).toThrowError(/age is not of type number/i);
   });
 
-  test('isBastard throws error when no args are given', () => {
+  test('isBastard throws error when favoriteBeer is not of type object', () => {
     function emptyfunction() {
       // @ts-ignore
-      isBasterd();
+      isBasterd({ name: Faker.name.firstName(), age: 42 });
     }
-    expect(emptyfunction).toThrowError(/you must provide a bastard object/i);
+    expect(emptyfunction).toThrowError(/favoriteBeer is not of type object/i);
   });
 
-  test('isBastard throws error when no args are given', () => {
+  test('isBastard throws error when codeLanguages is not of type array', () => {
     function emptyfunction() {
       // @ts-ignore
-      isBasterd();
+      isBasterd({ name: Faker.name.firstName(), age: 42, favoriteBeer: { name: 'brewdog' } });
     }
-    expect(emptyfunction).toThrowError(/you must provide a bastard object/i);
+    expect(emptyfunction).toThrowError(/codeLanguages is not of type array/i);
   });
 });
