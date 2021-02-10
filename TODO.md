@@ -1,0 +1,4 @@
+- testing function in example
+- create validator
+- add types
+- add tests
